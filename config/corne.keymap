@@ -11,10 +11,10 @@
 
 / {
     behaviors {
-        ltt: ltt {
+        ltt: Layer-Tap-Thumb {
             compatible = "zmk,behavior-hold-tap";
             label = "Layer-Tap-Thumb";
-            bindings = <&lt>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <125>;
