@@ -64,10 +64,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp EXCL       &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS               &kp KP_MULTIPLY    &kp EQUAL       &kp GRAVE          &kp LA(BSPC)
-&trans   &kp BACKSLASH  &kt PIPE  &kp TILDE  &trans    &trans       &kp MINUS  &kp LEFT_PARENTHESIS   &kp LBKT           &kp LEFT_BRACE  &kp SINGLE_QUOTE   &trans
-&trans   &trans         &trans    &trans     &trans    &trans       &kp UNDER  &kp RIGHT_PARENTHESIS  &kp RBKT           &kp RBRC        &kp DOUBLE_QUOTES  &trans
-                                  &trans     &trans    &trans       &trans     &trans                 &kp LA(BACKSPACE)
+&kp TAB  &kp EXCL       &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS               &kp KP_MULTIPLY             &kp EQUAL       &kp GRAVE          &kp LA(BSPC)
+&trans   &kp BACKSLASH  &kt PIPE  &kp TILDE  &trans    &trans       &kp MINUS  &kp LEFT_PARENTHESIS   &kp LBKT                    &kp LEFT_BRACE  &kp SINGLE_QUOTE   &trans
+&trans   &trans         &trans    &trans     &trans    &trans       &kp UNDER  &kp RIGHT_PARENTHESIS  &kp RBKT                    &kp RBRC        &kp DOUBLE_QUOTES  &trans
+                                  &trans     &trans    &trans       &trans     &trans                 &kp LA(LC(LG(LEFT_SHIFT)))
             >;
         };
 
